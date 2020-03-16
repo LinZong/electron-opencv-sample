@@ -1,0 +1,22 @@
+{
+  "name": "electron-opencv-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "serve": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "global-agent": "^2.1.8",
+    "node-abi": "^2.15.0"
+  },
+  "dependencies": {
+    "electron": "^8.1.1",
+    "jquery": "^3.4.1",
+    "parcel": "^1.12.4"
+  }
+}

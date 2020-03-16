@@ -1,0 +1,1 @@
+extern "C" void do_gray(char * src, char * dst);

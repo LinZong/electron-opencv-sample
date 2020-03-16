@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( grayimage )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_library( grayimage SHARED gray_process.cpp )
+target_link_libraries( grayimage ${OpenCV_LIBS} )
