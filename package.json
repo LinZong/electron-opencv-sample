@@ -15,7 +15,7 @@
     "node-abi": "^2.15.0"
   },
   "dependencies": {
-    "electron": "^8.1.1",
+    "electron": "^9.4.0",
     "jquery": "^3.4.1",
     "parcel": "^1.12.4"
   }
